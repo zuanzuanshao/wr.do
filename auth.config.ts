@@ -17,7 +17,7 @@ export default {
     }),
     Resend({
       apiKey: env.RESEND_API_KEY,
-      from: "wrdo <support@wr.do>",
+      from: "wr.do <wr.do@zuan2uan.info>",
     }),
   ],
 } satisfies NextAuthConfig;
